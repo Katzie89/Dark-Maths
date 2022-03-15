@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Math-Quiz by Katzie</title>
+</head>
+<body>
+    <header>
+        <h1>Dark-Maths by Katzie</h1>
+    </header>
+    <main>
+        <article class="calcs">
+           <section class="calculator">
+                <div class="margLeft" id="number1"></div> <div class="margLeft" id="operand"></div> <div class="margLeft" id="number2"></div>
+                <div class="margLeft" id="operand2"></div> <div class="margLeft" id="number3"></div>
+                <div class="margLeft" id="isSign">=</div> <div class="margLeft" id="whereInputIs"><Input type="number" id="inputField"></Input></div>
+                <div id="description"></div>
+                <button class="inputBtns" id="submitBtn">Submit Answer</button>
+           </section>
+        </article>
+        <article class="board">
+           <section class="field" id="field1">
+               1
+           </section>
+           <section class="field" id="field2">
+               2
+           </section>
+           <section class="field" id="field3">
+               3
+           </section>
+        </article>
+        <article class="board">
+            <section class="field" id="field4">
+                4
+            </section>
+            <section class="field" id="field5">
+                5
+            </section>
+            <section class="field" id="field6">
+                6
+            </section>
+        </article>
+        <article class="board">
+            <section class="field" id="field7">
+                7
+            </section>
+            <section class="field" id="field8">
+                8
+            </section>
+            <section class="field" id="field9">
+                9
+            </section>
+        </article>
+        <article class="flexbar">
+            Life:&nbsp; <section ><progress class="lifebar" id="lifebar" max="100" value="100"></progress></section>
+        </article>
+        <article class="flexbar">
+            Maths-Count:&nbsp; <div id="soulCount"></div>
+        </article>
+        <article>
+            <div id="alerts"></div>
+        </article>
+        <article class="flexBtns">
+            <button id="startGame">Start Game</button>
+            <button id="loadGame">Load your Game</button>
+            <button id="deleteSave">Delete your Save</button>
+            <button id="resetBtn">Reset Game</button>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

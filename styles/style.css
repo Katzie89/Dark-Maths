@@ -1,0 +1,87 @@
+* {
+    background-color: #303030;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    margin-top: 3vw;
+}
+
+.calcs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.calculator {
+    width: 55vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBtns {
+    width: 15vw;
+    border: solid white;
+    border-radius: 25%;
+    margin-left: 5vw;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    width: 15%;
+    font-size: x-large;
+    text-align: center;
+    background-color: #404040;
+    color: black;
+    margin-left: 5vw;
+}
+.flexbar {
+    display: flex;
+    justify-content: center;
+}
+
+progress::-moz-progress-bar { background: red; }
+progress::-webkit-progress-value { 
+    background: red;
+}
+
+.actual {
+    background-color: red;
+}
+
+.done {
+    background-color: green;
+}
+
+.margLeft {
+    margin-left: 1vw;
+}
+
+#alerts {
+    text-align: center;
+}
+
+.flexBtns {
+    display: flex;
+    justify-content: space-around;
+}
+
+#loadGame, #deleteSave, #resetBtn {
+    margin-top: 2vh;
+}
